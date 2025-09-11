@@ -1,18 +1,18 @@
 :root {
 
     // themes color
-    --color-primary: #FF014F;
-    --color-primary-alt: #ff014dd9;
-    --color-primary-2nd: #FF494A;
-    --color-primary-3rd: #FDC448;
-    --color-primary-4th: #0071ff;
+    --color-primary: #007bff;
+    --color-primary-alt: #0069d9;
+    --color-primary-2nd: #0062cc;
+    --color-primary-3rd: #005cbf;
+    --color-primary-4th: #0056b3;
     --color-secondary: #060606;
     --color-white:#ffffff;
     
 
     --color-gray: #9F9F9F;
     --color-gray-2: #141414;
-    --color-subtitle: #f9004d;
+    --color-subtitle: #007bff;
     
      
     // background-color
@@ -24,12 +24,12 @@
     --color-card: #1b1b1c;
 
     // color gradient
-    --gradient-box: linear-gradient(to right, #5237f9, #FF014F);
+    --gradient-box: linear-gradient(to right, #007bff, #0056b3);
     
-    --gradient-one: linear-gradient(to right bottom, #E42032, #1273EB);
-    --gradient-two: linear-gradient(to right, #ED145B, #4A11EB);
+    --gradient-one: linear-gradient(to right bottom, #007bff, #0056b3);
+    --gradient-two: linear-gradient(to right, #007bff, #0056b3);
     --gradient-three: linear-gradient(to right, #03041c, #0612b3);
-    --text-gradient-one:linear-gradient(to right, #E42032, #4A11EB);
+    --text-gradient-one:linear-gradient(to right, #007bff, #0056b3);
 
     // typo Color
     --color-heading:#ffffff;
