@@ -1,7 +1,7 @@
 import Copyright from "@/components/footers/Copyright";
 import Footer3 from "@/components/footers/Footer3";
-import Header1 from "@/components/headers/Header1";
-import Contact from "@/components/others/Contact";
+import Header2 from "@/components/headers/Header2";
+import Contact from "@/components/common/Contact";
 import Link from "next/link";
 import React from "react";
 import CommonComponents from "@/components/common/CommonComponents";
@@ -15,7 +15,7 @@ export default function page() {
   return (
     <>
       <div className="tmp-white-version">
-        <Header1 />
+        <Header2 />
         <div className="breadcrumb-area breadcrumb-bg">
           <div className="container">
             <div className="row">
@@ -36,7 +36,7 @@ export default function page() {
             </div>
           </div>
         </div>
-        <Contact />
+        <Contact parentClass="get-in-touch-area tmp-section-gapBottom" />
         <Footer3 />
         <Copyright /> <CommonComponents />
       </div>

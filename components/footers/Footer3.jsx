@@ -3,13 +3,13 @@ import Image from "next/image";
 import Link from "next/link";
 import ScrollTop from "../common/ScrollTop";
 import { footerLinks, footerLinksWhite } from "@/data/footerLinks";
-export default function Footer1({
+export default function Footer3({
   darkLogo = "/assets/images/logo/white-logo-reeni.png",
   lightLogo = "/assets/images/logo/logo-white.png",
 }) {
   return (
     <>
-      <footer className="footer-area footer-style-one-wrapper bg-color-footer bg_images tmp-section-gap">
+      <footer className="footer-area footer-style-one-wrapper  tmp-section-gap">
         <div className="container">
           <div className="footer-main footer-style-one">
             <div className="row g-5">
@@ -34,7 +34,7 @@ export default function Footer1({
                     </Link>
                   </div>
                   <p className="description">
-                    <span>Get Ready</span> To Create Great
+                    <span>Get Ready</span> To <br /> Create Great
                   </p>
                   <form
                     onSubmit={(e) => e.preventDefault()}
@@ -68,13 +68,13 @@ export default function Footer1({
               </div>
               <div className="col-lg-3 col-md-6">
                 <div className="single-footer-wrapper contact-wrap">
-                  <h5 className="ft-title">Contact</h5>
+                  <h5 className="ft-title">Contact </h5>
                   <ul className="ft-link tmp-link-animation">
                     <li>
                       <span className="ft-icon">
                         <i className="fa-solid fa-envelope" />
                       </span>
-                      <a href="#">example@gmail.com</a>
+                      <a href="#">nafiz125@gmail.com</a>
                     </li>
                     <li>
                       <span className="ft-icon">
@@ -107,6 +107,14 @@ export default function Footer1({
               </div>
             </div>
           </div>
+        </div>
+        <div className="footer-bg-img">
+          <Image
+            alt="footer-img"
+            width={437}
+            height={430}
+            src="/assets/images/footer/footer-bg-img.png"
+          />
         </div>
       </footer>{" "}
     </>

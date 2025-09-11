@@ -1,4 +1,4 @@
-import "../public/assets/scss/main.scss";
+import "./scss/main.scss";
 import "odometer/themes/odometer-theme-default.css"; // Import theme
 import "react-toastify/dist/ReactToastify.css";
 import LayoutWrapper from "@/components/common/LayoutWrapper";

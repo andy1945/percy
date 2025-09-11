@@ -6,7 +6,6 @@ import Hero from "@/components/homes/home-9/Hero";
 import Portfolio from "@/components/homes/home-9/Portfolio";
 import React from "react";
 import Pricing from "@/components/common/Pricing";
-import Blogs from "@/components/common/Blogs";
 import Contact from "@/components/common/Contact";
 import Footer1 from "@/components/footers/Footer1";
 import CommonComponents from "@/components/common/CommonComponents";
@@ -25,7 +24,6 @@ export default function page() {
         <Services3 />
         <Portfolio isLight />
         <Education />
-        <Blogs isLight />
         <Contact parentClass="get-in-touch-area tmp-section-gapBottom" />
         <Footer1 />
         <CommonComponents />

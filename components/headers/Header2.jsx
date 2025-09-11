@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { openMobilemenu2 } from "@/utlis/toggleMobilemenu";
-import OnepageNav from "./OnepageNav";
+import Nav1 from "./Nav1";
 export default function Header2({
   darkLogo = "/assets/images/logo/white-logo-reeni.png",
   lightLogo = "/assets/images/logo/logo-white.png",
@@ -34,10 +34,8 @@ export default function Header2({
                 </Link>
               </div>
               <div className="tmp-mainmenu-nav d-none d-xl-block">
-                <nav className="navbar-example2 onepagenav">
-                  <ul className="tmp-mainmenu nav nav-pills">
-                    <OnepageNav />
-                  </ul>
+                <nav className="navbar-example2">
+                  <Nav1 />
                 </nav>
               </div>
               <div className="tmp-header-right">

@@ -3,7 +3,7 @@ import Copyright from "@/components/footers/Copyright";
 
 import Footer3 from "@/components/footers/Footer3";
 
-import Header1 from "@/components/headers/Header1";
+import Header2 from "@/components/headers/Header2";
 import Services from "@/components/services/Services";
 import Link from "next/link";
 import React from "react";
@@ -17,7 +17,8 @@ export const metadata = {
 export default function page() {
   return (
     <>
-      <Header1 />
+    <div className="tmp-white-version">
+      <Header2 />
       <div className="breadcrumb-area breadcrumb-bg">
         <div className="container">
           <div className="row">
@@ -42,6 +43,7 @@ export default function page() {
       <Pricing parentClass="our-price-plan-area tmp-section-gapBottom" />
       <Footer3 />
       <Copyright /> <CommonComponents />
+      </div>
     </>
   );
 }

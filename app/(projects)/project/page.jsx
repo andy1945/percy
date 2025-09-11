@@ -1,6 +1,6 @@
 import Copyright from "@/components/footers/Copyright";
 import Footer3 from "@/components/footers/Footer3";
-import Header1 from "@/components/headers/Header1";
+import Header2 from "@/components/headers/Header2";
 import Projects from "@/components/projects/Projects";
 import Link from "next/link";
 import React from "react";
@@ -14,8 +14,8 @@ export const metadata = {
 export default function page() {
   return (
     <>
-      <div className="project inner">
-        <Header1 />
+      <div className="tmp-white-version">
+        <Header2 />
         <div className="breadcrumb-area breadcrumb-bg">
           <div className="container">
             <div className="row">

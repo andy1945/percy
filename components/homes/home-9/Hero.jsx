@@ -10,10 +10,10 @@ export default function Hero() {
           <div className="row align-items-center">
             <div className="col-lg-6 order-lg-1">
               <div className="inner">
-                <span className="sub-title tmp-scroll-trigger tmp-fade-in animation-order-1">
+                <span className="sub-title wow fadeInUp">
                   Hello
                 </span>
-                <h1 className="title tmp-scroll-trigger tmp-fade-in animation-order-2">
+                <h1 className="title wow fadeInUp">
                   I’m Percy Jacob
                   <span className="header-caption">
                     <span className="cd-headline clip is-full-width">
@@ -28,11 +28,11 @@ export default function Hero() {
                     </span>
                   </span>
                 </h1>
-                <p className="disc tmp-scroll-trigger tmp-fade-in animation-order-3">
+                <p className="disc wow fadeInUp">
                   Securing Businesses, Enabling Compliance, and Building Trust
                   Through Expert-Led Cyber Governance
                 </p>
-                <div className="button-area-banner-one tmp-scroll-trigger tmp-fade-in animation-order-4">
+                <div className="button-area-banner-one wow fadeInUp">
                   <Link
                     className="tmp-btn hover-icon-reverse radius-round"
                     href={`/project`}

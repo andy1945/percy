@@ -9,13 +9,13 @@ export default function About() {
         <div className="row align-items-center">
           <div className="col-lg-6">
             <div className="about-us-left-content-wrap bg-vactor-one">
-              <div className="years-of-experience-card tmp-scroll-trigger tmp-fade-in animation-order-1">
+              <div className="years-of-experience-card wow fadeInUp">
                 <h2 className="counter card-title">
                   <OdometerComponent max={10} /> +
                 </h2>
                 <p className="card-para">years of experience</p>
               </div>
-              <div className="design-card tmp-scroll-trigger tmp-fade-in animation-order-2">
+              <div className="design-card wow fadeInUp">
                 <div className="design-card-img">
                   <div className="icon">
                     <i className="fa-sharp fa-thin fa-lock" />
@@ -31,13 +31,13 @@ export default function About() {
           <div className="col-lg-6">
             <div className="about-us-right-content-wrap">
               <div className="section-head text-align-left mb--50">
-                <div className="section-sub-title tmp-scroll-trigger tmp-fade-in animation-order-1">
+                <div className="section-sub-title wow fadeInUp">
                   <span className="subtitle">About Me</span>
                 </div>
-                <h2 className="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2">
+                <h2 className="title split-collab wow fadeInUp">
                   Securing Businesses. Enabling Compliance Building Trust <br />
                 </h2>
-                <p className="description tmp-scroll-trigger tmp-fade-in animation-order-3">
+                <p className="description wow fadeInUp">
                   Welcome! I’m a cybersecurity and IT audit professional with
                   extensive experience in governance, risk, and compliance. I’ve
                   helped organizations across industries — from healthcare to
@@ -48,7 +48,7 @@ export default function About() {
               </div>
               <div className="about-us-section-card row g-5">
                 <div className="col-lg-6 col-md-6 col-sm-6 col-12">
-                  <div className="about-us-card tmponhover tmp-scroll-trigger tmp-fade-in animation-order-4">
+                  <div className="about-us-card tmponhover wow fadeInUp">
                     <div className="card-head">
                       <div className="logo-img">
                         <Image
@@ -68,7 +68,7 @@ export default function About() {
                   </div>
                 </div>
                 <div className="col-lg-6 col-md-6 col-sm-6 col-12">
-                  <div className="about-us-card tmponhover tmp-scroll-trigger tmp-fade-in animation-order-5">
+                  <div className="about-us-card tmponhover wow fadeInUp">
                     <div className="card-head">
                       <div className="logo-img">
                         <Image
@@ -91,7 +91,7 @@ export default function About() {
                   </div>
                 </div>
               </div>
-              <div className="about-btn mt--40 tmp-scroll-trigger tmp-fade-in animation-order-6">
+              <div className="about-btn mt--40 wow fadeInUp">
                 <Link
                   className="tmp-btn hover-icon-reverse radius-round"
                   href={`/about`}
