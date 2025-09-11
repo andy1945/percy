@@ -1,8 +1,7 @@
 import Copyright from "@/components/footers/Copyright";
 import Footer3 from "@/components/footers/Footer3";
-import Header1 from "@/components/headers/Header1";
+import Header2 from "@/components/headers/Header2";
 import ProjectDetails from "@/components/projects/ProjectDetails";
-import { allPortfolioItems } from "@/data/portfolio";
 import Link from "next/link";
 import React from "react";
 import CommonComponents from "@/components/common/CommonComponents";
@@ -12,19 +11,16 @@ export const metadata = {
   description:
     "Personal Portfolio React Nextjs Template | Freelancer & Developer Portfolio",
 };
-export default async function page({ params }) {
-  const { slug } = await params;
-  const portfolioItem =
-    allPortfolioItems.find((blog) => blog.slug == slug) || allPortfolioItems[0];
+export default function page() {
   return (
     <>
-      <Header1 />
+      <Header2 />
       <div className="breadcrumb-area breadcrumb-bg">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
               <div className="breadcrumb-inner text-center">
-                <h1 className="title split-collab">{portfolioItem.title}</h1>
+                <h1 className="title split-collab">Project Details</h1>
                 <ul className="page-list">
                   <li className="tmp-breadcrumb-item">
                     <Link href={`/`}>Home</Link>
@@ -41,7 +37,7 @@ export default async function page({ params }) {
           </div>
         </div>
       </div>
-      <ProjectDetails portfolioItem={portfolioItem} />
+      <ProjectDetails />
       <Footer3 />
       <Copyright /> <CommonComponents />
     </>

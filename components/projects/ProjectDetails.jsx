@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import Appointment from "./Appointment";
 export default function ProjectDetails({ portfolioItem }) {
   return (
     <div className="project-details-area-wrapper tmp-section-gap">
@@ -123,7 +122,6 @@ export default function ProjectDetails({ portfolioItem }) {
               </div>
             </div>
             {/* Tpm Get In touch start */}
-            <Appointment />
             {/* Tpm Get In touch End */}
           </div>
           <div className="col-lg-4">

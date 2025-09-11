@@ -74,19 +74,7 @@ export default function Footer1({
                       <span className="ft-icon">
                         <i className="fa-solid fa-envelope" />
                       </span>
-                      <a href="#">example@gmail.com</a>
-                    </li>
-                    <li>
-                      <span className="ft-icon">
-                        <i className="fa-solid fa-location-dot" />
-                      </span>
-                      3891 Ranchview Dr. Richardson
-                    </li>
-                    <li>
-                      <span className="ft-icon">
-                        <i className="fa-solid fa-phone" />
-                      </span>
-                      <a href="#">01245789321</a>
+                      <a href="#">info@bystsecurity.com</a>
                     </li>
                   </ul>
                   <div className="social-link footer">

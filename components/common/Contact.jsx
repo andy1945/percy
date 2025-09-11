@@ -71,20 +71,11 @@ export default function Contact({
                   </li>
                   <li className="tmp-scroll-trigger tmp-fade-in animation-order-2">
                     <span className="ft-icon">
-                      <i className="fa-solid fa-location-dot" />
+                      <i className="fa-solid fa-globe" />
                     </span>
                     <div className="ft-link-wrap">
-                      <h4 className="link-title">Location:</h4>
-                      <div>3891 Ranchview Dr. Richardson</div>
-                    </div>
-                  </li>
-                  <li className="tmp-scroll-trigger tmp-fade-in animation-order-3 tmp-link-animation">
-                    <span className="ft-icon">
-                      <i className="fa-solid fa-location-dot" />
-                    </span>
-                    <div className="ft-link-wrap">
-                      <h4 className="link-title">Contact:</h4>
-                      <a href="#">01245789321</a>
+                      <h4 className="link-title">Website:</h4>
+                      <a href="https://bystsecurity.com/">https://bystsecurity.com/</a>
                     </div>
                   </li>
                 </ul>

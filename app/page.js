@@ -3,7 +3,6 @@ import Header2 from "@/components/headers/Header2";
 import Education from "@/components/common/Education2";
 import About from "@/components/homes/home-9/About";
 import Hero from "@/components/homes/home-9/Hero";
-import Portfolio from "@/components/homes/home-9/Portfolio";
 import React from "react";
 import Pricing from "@/components/common/Pricing";
 import Contact from "@/components/common/Contact";
@@ -22,7 +21,6 @@ export default function page() {
         <Hero />
         <About />
         <Services3 />
-        <Portfolio isLight />
         <Education />
         <Contact parentClass="get-in-touch-area tmp-section-gapBottom" />
         <Footer1 />

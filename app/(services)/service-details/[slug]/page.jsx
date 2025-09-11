@@ -1,6 +1,6 @@
 import Copyright from "@/components/footers/Copyright";
 import Footer3 from "@/components/footers/Footer3";
-import Header1 from "@/components/headers/Header1";
+import Header2 from "@/components/headers/Header2";
 import ServiceDetails from "@/components/services/ServiceDetails";
 import { allServices } from "@/data/services";
 import Link from "next/link";
@@ -18,7 +18,7 @@ export default async function page({ params }) {
     allServices.find((blog) => blog.slug == slug) || allServices[0];
   return (
     <>
-      <Header1 />
+      <Header2 />
       <div className="breadcrumb-area breadcrumb-bg">
         <div className="container">
           <div className="row">
