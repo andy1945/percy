@@ -1,16 +1,17 @@
 import React from "react";
-import { projectsData } from "@/data/projects";
+import Image from "next/image";
+import { newServicesData } from "@/data/newServices";
 
-export default function Projects({ isLight = false }) {
+export default function NewServices() {
   return (
-    <section className="tmp-latest-portfolio tmp-section-gap">
+    <section className="latest-service-area tmp-section-gap">
       <div className="container">
         <div className="row g-5">
-          {projectsData.map((item, index) => (
+          {newServicesData.map((item, index) => (
             <div className="col-lg-6" key={index}>
-              <div className="service-card-v1 vc-primary-2nd">
+              <div className="service-card-v1 vc-primary-2nd h-100">
                 <div className="service-card-icon">
-                  <i className={item.icon}></i>
+                  <Image src={item.image} alt={item.title} width={100} height={100} />
                 </div>
                 <h3 className="service-title">{item.title}</h3>
                 <p className="service-para">{item.description}</p>

@@ -1,0 +1,29 @@
+.cert-card {
+  background: var(--background-color-1);
+  padding: 30px;
+  border-radius: 10px;
+  transition: var(--transition);
+  height: 100%;
+
+  .card-head {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    .icon {
+      font-size: 40px;
+      color: var(--color-primary);
+    }
+
+    .card-title {
+      font-size: 20px;
+      font-weight: var(--p-bold);
+      margin-bottom: 0;
+    }
+  }
+
+  &:hover {
+    transform: translateY(-5px);
+    background: var(--background-color-2);
+  }
+}

@@ -9,6 +9,10 @@
   }
 }
 
+.fw-bold {
+  font-weight: var(--p-bold) !important;
+}
+
 .background--1 {
   background: var(--background-color-1);
 }

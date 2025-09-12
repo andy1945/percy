@@ -1,10 +1,9 @@
-import Pricing from "@/components/common/Pricing";
 import Copyright from "@/components/footers/Copyright";
 
 import Footer3 from "@/components/footers/Footer3";
 
 import Header2 from "@/components/headers/Header2";
-import Services from "@/components/services/Services";
+import NewServices from "@/components/services/NewServices";
 import Link from "next/link";
 import React from "react";
 import CommonComponents from "@/components/common/CommonComponents";
@@ -39,8 +38,7 @@ export default function page() {
           </div>
         </div>
       </div>
-      <Services />
-      <Pricing parentClass="our-price-plan-area tmp-section-gapBottom" />
+      <NewServices />
       <Footer3 />
       <Copyright /> <CommonComponents />
       </div>

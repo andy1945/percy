@@ -44,7 +44,7 @@ export default function About2() {
                   <div className="logo-img">
                     <i className={card.iconClass} />
                   </div>
-                  <h3 className="card-title">{card.title}</h3>
+                  <h3 className="card-title fw-bold">{card.title}</h3>
                 </div>
                 <p className="card-para">{card.description}</p>
               </div>

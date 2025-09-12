@@ -8,6 +8,9 @@ import Pricing from "@/components/common/Pricing";
 import Contact from "@/components/common/Contact";
 import Footer1 from "@/components/footers/Footer1";
 import CommonComponents from "@/components/common/CommonComponents";
+import Certifications from "@/components/common/Certifications";
+import WhatIDo from "@/components/common/WhatIDo";
+
 export const metadata = {
   title: "Percy Jacob || An IT AUDIT LEADER | A Cloud Security Strategist",
   description:
@@ -22,6 +25,8 @@ export default function page() {
         <About />
         <Services3 />
         <Education />
+        <Certifications />
+        <WhatIDo />
         <Contact parentClass="get-in-touch-area tmp-section-gapBottom" />
         <Footer1 />
         <CommonComponents />

@@ -14,11 +14,6 @@ export const educationExperienceData = [
     duration: "Managing Risk in the Information Age (Harvard VPAL)",
     description: "",
   },
-  {
-    role: "Certifications",
-    duration: "Certified Information Systems Auditor (CISA)\n- Certified Information Security Manager (CISM)\n- Certified in Risk and Information Systems Control (CRISC)\n- Certified in the Governance of Enterprise IT (CGEIT)\n- Certified Data Privacy Solutions Engineer (CDPSE)\n- Certified Cloud Security Professional (CCSP)\n- AWS Certified Solutions Architect – Associate\n- Microsoft Certified: Azure Security Engineer Associate\n- Google Cloud Certified – Professional Cloud Security Engineer",
-    description: "",
-  },
 ];
 
 export const educationExperience = [
