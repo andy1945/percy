@@ -3,6 +3,7 @@ export const footerLinks = [
   { href: "/about", label: "About" },
   { href: "/service", label: "Services" },
   { href: "/project", label: "Project" },
+  // { href: "/blog", label: "Blog" },
   { href: "/contact", label: "Contact" },
 ];
 export const footerLinksWhite = [
@@ -10,5 +11,6 @@ export const footerLinksWhite = [
   { href: "/about", label: "About" },
   { href: "/service", label: "Services" },
   { href: "/project", label: "Project" },
+  // { href: "/blog", label: "Blog" },
   { href: "/contact", label: "Contact" },
 ];

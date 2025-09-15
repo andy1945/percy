@@ -1,15 +1,32 @@
 "use client";
 import emailjs from "@emailjs/browser";
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { toast } from "react-toastify";
+import ReCAPTCHAComponent from "./ReCAPTCHA";
 
 export default function Contact({
   parentClass = "get-in-touch-area tmp-section-gapTop",
 }) {
   const form = useRef();
+  const [isVerified, setIsVerified] = useState(false);
 
+  const handleVerification = (value) => {
+    // value will be null if the user fails the challenge
+    setIsVerified(!!value);
+  };
   const sandMail = (e) => {
     e.preventDefault();
+    if (!isVerified) {
+      toast.error("Please verify you are not a robot.", {
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+      });
+      return;
+    }
     emailjs
       .sendForm(
         // EmailJS service ID - identifies which email service to use
@@ -75,7 +92,9 @@ export default function Contact({
                     </span>
                     <div className="ft-link-wrap">
                       <h4 className="link-title">Website:</h4>
-                      <a href="https://bystsecurity.com/">https://bystsecurity.com/</a>
+                      <a href="https://bystsecurity.com/">
+                        https://bystsecurity.com/
+                      </a>
                     </div>
                   </li>
                 </ul>
@@ -155,12 +174,17 @@ export default function Contact({
                         </div>
                       </div>
                       <div className="col-lg-12">
+                        <ReCAPTCHAComponent
+                          onVerify={handleVerification}
+                          parentClass={"mb-4"}
+                        />
                         <div className="tmp-button-here">
                           <button
                             className="tmp-btn hover-icon-reverse radius-round w-100"
                             name="submit"
                             type="submit"
                             id="submit"
+                            disabled={!isVerified}
                           >
                             <span className="icon-reverse-wrapper">
                               <span className="btn-text">Appointment Now</span>

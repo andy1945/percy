@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
-     "@popperjs/core": "^2.11.8",
+    "@popperjs/core": "^2.11.8",
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.8.1",
     "bootstrap": "^5.0.2",
@@ -19,6 +19,7 @@
     "odometer": "^0.4.8",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-google-recaptcha": "^3.1.0",
     "react-toastify": "^11.0.5",
     "sal.js": "^0.8.5",
     "sass": "^1.86.3",

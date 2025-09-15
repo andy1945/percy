@@ -38,12 +38,12 @@ export default function About() {
                   Securing Businesses. Enabling Compliance Building Trust <br />
                 </h2>
                 <p className="description wow fadeInUp">
-                  Welcome! I’m a cybersecurity and IT audit professional with
-                  extensive experience in governance, risk, and compliance. I’ve
-                  helped organizations across industries — from healthcare to
-                  financial services — strengthen their security postures, meet
-                  rigorous compliance standards, and confidently navigate cloud
-                  transformations.
+                  Hey there! I'm passionate about cybersecurity and IT audits.
+                  With a solid background in governance, risk, and compliance,
+                  I've worked with various organizations, from healthcare to
+                  finance, to help them enhance their security measures, meet
+                  strict compliance requirements, and smoothly transition to the
+                  cloud.
                 </p>
               </div>
               <div className="about-us-section-card row g-5">
