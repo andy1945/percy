@@ -1,9 +1,6 @@
-import Contact from "@/components/common/Contact2";
-import Education from "@/components/common/Education";
 import Facts from "@/components/common/Facts";
-import Pricing from "@/components/common/Pricing";
-import Services from "@/components/common/Services";
-import Skills from "@/components/common/Skills";
+import Education from "@/components/common/Education2";
+import Certifications from "@/components/common/Certifications";
 import Footer1 from "@/components/footers/Footer1";
 //import Header1 from "@/components/headers/Header1";
 import Header2 from "@/components/headers/Header2";
@@ -39,12 +36,9 @@ export default function page() {
             </div>
           </div>
         </div>
-        <Services isLight />
-        <Skills parentClass="tmp-skill-area tmp-section-gapBottom" />
-        <Facts />
+        <Facts parentClass="tmp-section-gapTop tmp-section-gapBottom" />
         <Education />
-        <Pricing />
-        <Contact parentClass="get-in-touch-area tmp-section-gapBottom tmp-section-gapTop" />
+        <Certifications />
         <Footer1 /> <CommonComponents />
       </div>
     </>

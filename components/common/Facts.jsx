@@ -2,9 +2,10 @@ import React from "react";
 import OdometerComponent from "./OdometerComponent";
 import { counters } from "@/data/facts";
 
-export default function Facts() {
+export default function Facts({ parentClass }) {
   return (
-    <section className="counter-area">
+    <section className={`counter-area ${parentClass || ""}`}>
+
       <div className="container">
         <div className="row g-5">
           <div className="col-12 col-lg-6 col-xl-6 col-xxl-6">
@@ -12,7 +13,7 @@ export default function Facts() {
               <div className="year-expariance-wrap">
                 {/* <h2 class="year-number"><span class="counter">25 </span> </h2> */}
                 <h2 className="counter year-number">
-                  <OdometerComponent max={25} />
+                  <OdometerComponent max={15} />
                 </h2>
                 <h3 className="year-title">
                   Years Of <br />

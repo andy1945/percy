@@ -3,18 +3,11 @@ import Image from "next/image";
 import Link from "next/link";
 import ScrollTop from "../common/ScrollTop";
 import { footerLinks, footerLinksWhite } from "@/data/footerLinks";
-import ReCAPTCHAComponent from "../common/ReCAPTCHA";
-import { useState } from "react";
+
 export default function Footer1({
   darkLogo = "/assets/images/logo/white-logo-reeni.png",
   lightLogo = "/assets/images/logo/logo-white.png",
 }) {
-  const [isVerified, setIsVerified] = useState(false);
-
-  const handleVerification = (value) => {
-    // value will be null if the user fails the challenge
-    setIsVerified(!!value);
-  };
   return (
     <>
       <footer className="footer-area footer-style-one-wrapper bg-color-footer bg_images tmp-section-gap">
@@ -44,36 +37,6 @@ export default function Footer1({
                   <p className="description">
                     <span>Get Ready</span> To Create Great
                   </p>
-                  <form
-                    onSubmit={(e) => e.preventDefault()}
-                    className="newsletter-form-1 mt--40"
-                  >
-                    <input type="email" placeholder="Email Adress" />
-                    <span className="form-icon">
-                      <i className="fa-regular fa-envelope" />
-                    </span>
-                    <ReCAPTCHAComponent
-                      onVerify={handleVerification}
-                      parentClass={"mt-4"}
-                    />
-                    <button
-                      className="tmp-btn hover-icon-reverse radius-round w-100 mt-4"
-                      name="submit"
-                      type="submit"
-                      id="submit"
-                      disabled={!isVerified}
-                    >
-                      <span className="icon-reverse-wrapper">
-                        <span className="btn-text">Subscribe</span>
-                        <span className="btn-icon">
-                          <i className="fa-sharp fa-regular fa-arrow-right" />
-                        </span>
-                        <span className="btn-icon">
-                          <i className="fa-sharp fa-regular fa-arrow-right" />
-                        </span>
-                      </span>
-                    </button>
-                  </form>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6">
