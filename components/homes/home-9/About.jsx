@@ -11,7 +11,7 @@ export default function About() {
             <div className="about-us-left-content-wrap bg-vactor-one">
               <div className="years-of-experience-card wow fadeInUp">
                 <h2 className="counter card-title">
-                  <OdometerComponent max={15} /> +
+                  <OdometerComponent max={10} /> +
                 </h2>
                 <p className="card-para">years of experience</p>
               </div>
@@ -61,9 +61,7 @@ export default function About() {
                       <h3 className="card-title">Cloud Security Readiness</h3>
                     </div>
                     <p className="card-para">
-                      Assessing and preparing SaaS platforms and web
-                      applications for secure deployment in AWS and Azure,
-                      aligned with SOC 2 and NIST standards.
+                      Design and execute comprehensive security compliance programs for organizations, enabling companies to be ready for evaluation for both cloud and on-premises systems against SOC 2, ISO 27001/2, HIPAA, NIST 800-53, PCI DSS, CMMC, and HITRUST requirements.
                     </p>
                   </div>
                 </div>
@@ -80,13 +78,11 @@ export default function About() {
                       </div>
                       <h3 className="card-title">
                         {" "}
-                        IT Risk Automation & Continuous Monitoring
+                        Governance, Risk, & Compliance (GRC)
                       </h3>
                     </div>
                     <p className="card-para">
-                      Reduced manual effort in IT control monitoring by 20%
-                      through automation, GRC tooling, and strategic process
-                      alignment.
+                      Implement GRC frameworks that drive measurable outcomes in risk reduction, control maturity, and audit success for businesses of all sizes
                     </p>
                   </div>
                 </div>

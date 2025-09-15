@@ -1,16 +1,16 @@
 export const menuItems = [
   { label: "Home", href: "/", isLink: true },
   { label: "About", href: "/about", isLink: true },
-  { label: "Services", href: "/service", isLink: true },
-  { label: "Project", href: "/project", isLink: true },
+  
+  { label: "What I do", href: "/what-i-do", isLink: true },
   { label: "Blog", href: "/blog", isLink: true },
   { label: "Contact", href: "/contact", isLink: true },
 ];
 export const menuItemsLight = [
   { label: "Home", href: "/", isLink: true },
   { label: "About", href: "/about", isLink: true },
-  { label: "Services", href: "/service", isLink: true },
-  { label: "Project", href: "/project", isLink: true },
+  
+  { label: "What I do", href: "/what-i-do", isLink: true },
   { label: "Contact", href: "/contact", isLink: true },
 ];
 export const demoData = [

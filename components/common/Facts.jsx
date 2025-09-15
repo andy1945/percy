@@ -34,10 +34,12 @@ export default function Facts({ parentClass }) {
                     <div
                       className={`counter-card tmponhover tmp-scroll-trigger tmp-fade-in animation-order-${item.order}`}
                     >
-                      <h3 className="counter counter-title">
-                        <OdometerComponent max={item.count} />
-                        {item.suffix}
-                      </h3>
+                      {item.count && (
+                        <h3 className="counter counter-title">
+                          <OdometerComponent max={item.count} />
+                          {item.suffix}
+                        </h3>
+                      )}
                       <p className="counter-para">{item.text}</p>
                     </div>
                   </div>

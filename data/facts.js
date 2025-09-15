@@ -1,8 +1,8 @@
 export const counters = [
-  { count: 20, suffix: "k+", text: "Our Project Complete", order: 1 },
-  { count: 10, suffix: "k+", text: "Our Natural Products", order: 2 },
-  { count: 200, suffix: "+", text: "Clients Reviews", order: 3 },
-  { count: 1000, suffix: "+", text: "our Satisfied Clientd", order: 4 },
+  { text: "SOC 2, HIPAA", order: 1 },
+  { text: "ISO 27001/2", order: 2 },
+  { text: "NIST 800-53", order: 3 },
+  { text: "PCI DSS", order: 4 },
 ];
 
 export const countData = [

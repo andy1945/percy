@@ -7,7 +7,7 @@ import React from "react";
 import CommonComponents from "@/components/common/CommonComponents";
 export const metadata = {
   title:
-    "Project || Personal Portfolio React Nextjs Template | Freelancer & Developer Portfolio",
+    "What I do || Personal Portfolio React Nextjs Template | Freelancer & Developer Portfolio",
   description:
     "Personal Portfolio React Nextjs Template | Freelancer & Developer Portfolio",
 };
@@ -21,7 +21,7 @@ export default function page() {
             <div className="row">
               <div className="col-lg-12">
                 <div className="breadcrumb-inner text-center">
-                  <h1 className="title split-collab">Project</h1>
+                  <h1 className="title split-collab">What I do</h1>
                   <ul className="page-list">
                     <li className="tmp-breadcrumb-item">
                       <Link href={`/`}>Home</Link>
@@ -29,7 +29,7 @@ export default function page() {
                     <li className="icon">
                       <i className="fa-solid fa-angle-right" />
                     </li>
-                    <li className="tmp-breadcrumb-item active">Project</li>
+                    <li className="tmp-breadcrumb-item active">What I do</li>
                   </ul>
                 </div>
               </div>

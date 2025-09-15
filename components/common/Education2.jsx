@@ -6,9 +6,7 @@ export default function Education() {
     <section className="education-experience tmp-section-gapTop tmp-section-gapBottom" id="resume">
       <div className="container">
         <div className="section-head mb--50">
-          <div className="section-sub-title center-title wow fadeInUp">
-            <span className="subtitle">My Resume</span>
-          </div>
+          
           <h2 className="title split-collab wow fadeInUp">
             Education &amp; Experience
           </h2>
