@@ -11,7 +11,7 @@ export default function About() {
             <div className="about-us-left-content-wrap bg-vactor-one">
               <div className="years-of-experience-card wow fadeInUp">
                 <h2 className="counter card-title">
-                  <OdometerComponent max={10} /> +
+                  <OdometerComponent max={15} /> +
                 </h2>
                 <p className="card-para">years of experience</p>
               </div>
@@ -38,12 +38,12 @@ export default function About() {
                   Securing Businesses. Enabling Compliance Building Trust <br />
                 </h2>
                 <p className="description wow fadeInUp">
-                  Hey there! I'm passionate about cybersecurity and IT audits.
-                  With a solid background in governance, risk, and compliance,
-                  I've worked with various organizations, from healthcare to
-                  finance, to help them enhance their security measures, meet
-                  strict compliance requirements, and smoothly transition to the
-                  cloud.
+                  Welcome! I’m a cybersecurity and IT audit professional with
+                  extensive experience in governance, risk, and compliance. I’ve
+                  helped organizations across industries — from healthcare to
+                  financial services — strengthen their security postures, meet
+                  rigorous compliance standards, and confidently navigate cloud
+                  transformations.
                 </p>
               </div>
               <div className="about-us-section-card row g-5">
@@ -61,7 +61,9 @@ export default function About() {
                       <h3 className="card-title">Cloud Security Readiness</h3>
                     </div>
                     <p className="card-para">
-                      Design and execute comprehensive security compliance programs for organizations, enabling companies to be ready for evaluation for both cloud and on-premises systems against SOC 2, ISO 27001/2, HIPAA, NIST 800-53, PCI DSS, CMMC, and HITRUST requirements.
+                      Assessing and preparing SaaS platforms and web
+                      applications for secure deployment in AWS and Azure,
+                      aligned with SOC 2 and NIST standards.
                     </p>
                   </div>
                 </div>
@@ -78,11 +80,13 @@ export default function About() {
                       </div>
                       <h3 className="card-title">
                         {" "}
-                        Governance, Risk, & Compliance (GRC)
+                        IT Risk Automation & Continuous Monitoring
                       </h3>
                     </div>
                     <p className="card-para">
-                      Implement GRC frameworks that drive measurable outcomes in risk reduction, control maturity, and audit success for businesses of all sizes
+                      Reduced manual effort in IT control monitoring by 20%
+                      through automation, GRC tooling, and strategic process
+                      alignment.
                     </p>
                   </div>
                 </div>

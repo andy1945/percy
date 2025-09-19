@@ -2,6 +2,7 @@ import Facts from "@/components/common/Facts";
 import Education from "@/components/common/Education2";
 import Certifications from "@/components/common/Certifications";
 import Footer1 from "@/components/footers/Footer1";
+import Contact from "@/components/common/Contact";
 //import Header1 from "@/components/headers/Header1";
 import Header2 from "@/components/headers/Header2";
 import Link from "next/link";
@@ -36,9 +37,24 @@ export default function page() {
             </div>
           </div>
         </div>
+        <div className="about-me-intro-area tmp-section-gap">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="about-me-intro-content text-center">
+                  <h2 className="title">Securing Businesses. Enabling Compliance. Building Trust.</h2>
+                  <p className="description">
+                    Welcome! I’m a cybersecurity and IT audit professional with extensive experience in governance, risk, and compliance. I’ve helped organizations across industries — from healthcare to financial services — strengthen their security postures, meet rigorous compliance standards, and confidently navigate cloud transformations.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <Facts parentClass="tmp-section-gapTop tmp-section-gapBottom" />
         <Education />
         <Certifications />
+        <Contact parentClass="tmp-section-gapBottom" />
         <Footer1 /> <CommonComponents />
       </div>
     </>

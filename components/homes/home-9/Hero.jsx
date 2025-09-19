@@ -4,7 +4,7 @@ import TyperComponent from "@/components/common/TyperComponent";
 
 export default function Hero() {
   return (
-    <div className="tmp-banner-one-area style-2 bg_image bg_image--4" id="home">
+    <div className="tmp-banner-one-area style-2 bg_image bg_image--9" id="home">
       <div className="container">
         <div className="banner-one-main-wrapper">
           <div className="row align-items-center">
@@ -35,7 +35,7 @@ export default function Hero() {
                 <div className="button-area-banner-one wow fadeInUp">
                   <Link
                     className="tmp-btn hover-icon-reverse radius-round"
-                    href={`/project`}
+                    href={`/what-i-do`}
                   >
                     <span className="icon-reverse-wrapper">
                       <span className="btn-text">View Portfolio</span>

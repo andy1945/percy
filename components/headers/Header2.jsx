@@ -44,10 +44,10 @@ export default function Header2({
                     <a href="#">
                       <i className="fa-brands fa-instagram" />
                     </a>
-                    <a href="#">
+                    <a href="https://www.linkedin.com/in/percy-r-a7b7b3192/">
                       <i className="fa-brands fa-linkedin-in" />
                     </a>
-                    <a href="#">
+                    <a href="https://x.com/Percyrwandarugali">
                       <i className="fa-brands fa-twitter" />
                     </a>
                     <a href="#">

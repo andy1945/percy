@@ -21,8 +21,7 @@ export default function Facts({ parentClass }) {
                 </h3>
               </div>
               <p className="year-para">
-                Business consulting consultants provide expert advice and guida
-                the a businesses to help theme their performance efficiency
+                I’ve delivered proven strategies in risk management, cloud security, and compliance that empower businesses to grow securely.
               </p>
             </div>
           </div>

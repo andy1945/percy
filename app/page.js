@@ -1,5 +1,4 @@
-
-
+import Services3 from "@/components/common/Services3";
 import Header2 from "@/components/headers/Header2";
 import Education from "@/components/common/Education2";
 import About from "@/components/homes/home-9/About";
@@ -24,10 +23,10 @@ export default function page() {
         <Header2 />
         <Hero />
         <About />
-        
+        <WhatIDo />
+        <Services3 />
         <Education />
         <Certifications />
-        <WhatIDo />
         <Contact parentClass="get-in-touch-area tmp-section-gapBottom" />
         <Footer1 />
         <CommonComponents />

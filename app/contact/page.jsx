@@ -1,5 +1,5 @@
 import Copyright from "@/components/footers/Copyright";
-import Footer3 from "@/components/footers/Footer3";
+import Footer1 from "@/components/footers/Footer1";
 import Header2 from "@/components/headers/Header2";
 import Contact from "@/components/common/Contact";
 import Link from "next/link";
@@ -36,8 +36,22 @@ export default function page() {
             </div>
           </div>
         </div>
-        <Contact parentClass="get-in-touch-area tmp-section-gapBottom" />
-        <Footer3 />
+        <div className="about-me-intro-area tmp-section-gapTop">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="about-me-intro-content text-center">
+                  <h2 className="title">Before You Spend Thousands</h2>
+                  <p className="description">
+                    Not every cybersecurity challenge requires a big budget sometimes, the smartest move is just getting the right advice first. That’s exactly why we’re called BYST: Before You Spend Thousands. You lose nothing by talking to us  it’s free, and it might save you more than you expect.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <Contact parentClass="get-in-touch-area tmp-section-gapTop tmp-section-gapBottom" />
+        <Footer1 />
         <Copyright /> <CommonComponents />
       </div>
     </>
