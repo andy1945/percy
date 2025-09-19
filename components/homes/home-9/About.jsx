@@ -7,7 +7,7 @@ export default function About() {
     <section className="about-us-area tmp-section-gapTop" id="about">
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-lg-6">
+          <div className="col-lg-6 order-lg-2">
             <div className="about-us-left-content-wrap bg-vactor-one">
               <div className="years-of-experience-card wow fadeInUp">
                 <h2 className="counter card-title">
@@ -28,7 +28,7 @@ export default function About() {
               </div>
             </div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 order-lg-1">
             <div className="about-us-right-content-wrap">
               <div className="section-head text-align-left mb--50">
                 <div className="section-sub-title wow fadeInUp">

@@ -15,14 +15,7 @@ export const certifications = [
     title: "NIST-FISMA",
     icon: "fa-solid fa-certificate",
   },
-  {
-    title: "Certified Data Privacy Solutions Engineer (CDPSE)",
-    icon: "fa-solid fa-user-secret",
-  },
-  {
-    title: "Certified Cloud Security Professional (CCSP)",
-    icon: "fa-solid fa-user-secret",
-  },
+  
   {
     title: "AWS Certified Security Specialty",
     icon: "fa-brands fa-aws",

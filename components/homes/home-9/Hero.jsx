@@ -15,18 +15,17 @@ export default function Hero() {
                 </span>
                 <h1 className="title wow fadeInUp">
                   I’m Percy Jacob
-                  <span className="header-caption">
+                  <div className="header-caption">
                     <span className="cd-headline clip is-full-width">
                       <TyperComponent
                         strings={[
                           "An IT AUDIT LEADER.",
                           "A Cloud Security Strategist.",
-                          "A GRC EXPERT &",
                           "Cybersecurity Specialist.",
                         ]}
                       />
                     </span>
-                  </span>
+                  </div>
                 </h1>
                 <p className="disc wow fadeInUp">
                   Securing Businesses, Enabling Compliance, and Building Trust

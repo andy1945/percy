@@ -34,9 +34,7 @@ export default function Footer1({
                       />
                     </Link>
                   </div>
-                  <p className="description">
-                    <span>Get Ready</span> To Create Great
-                  </p>
+                  
                 </div>
               </div>
               <div className="col-lg-4 col-md-6">

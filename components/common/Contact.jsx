@@ -70,12 +70,10 @@ export default function Contact({
     <section className={parentClass} id="contacts">
       <div className="container">
         <div className="get-in-touch-wrapper tmponhover">
-          <div className="row g-5 align-items-center">
+          <div className="row g-3 align-items-center">
             <div className="col-lg-5">
               <div className="contact-inner">
-                <div className="section-head section-head-one-side text-align-left tmp-scroll-trigger tmp-fade-in animation-order-1">
-                  <span className="title-left">Get Ready To Create Great</span>
-                </div>
+                
                 <ul className="ft-link v2">
                   <li className="tmp-scroll-trigger tmp-fade-in animation-order-1 tmp-link-animation">
                     <span className="ft-icon">
