@@ -7,27 +7,6 @@ export default function About() {
     <section className="about-us-area tmp-section-gapTop" id="about">
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-lg-6 order-lg-2">
-            <div className="about-us-left-content-wrap bg-vactor-one">
-              <div className="years-of-experience-card wow fadeInUp">
-                <h2 className="counter card-title">
-                  <OdometerComponent max={15} /> +
-                </h2>
-                <p className="card-para">years of experience</p>
-              </div>
-              <div className="design-card wow fadeInUp">
-                <div className="design-card-img">
-                  <div className="icon">
-                    <i className="fa-sharp fa-thin fa-lock" />
-                  </div>
-                </div>
-                <div className="card-info">
-                  <h3 className="card-title">Compliance Standards</h3>
-                  <p className="card-para">21 Projects</p>
-                </div>
-              </div>
-            </div>
-          </div>
           <div className="col-lg-6 order-lg-1">
             <div className="about-us-right-content-wrap">
               <div className="section-head text-align-left mb--50">
@@ -106,6 +85,27 @@ export default function About() {
                     </span>
                   </span>
                 </Link>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-6 order-lg-2">
+            <div className="about-us-left-content-wrap bg-vactor-one">
+              <div className="years-of-experience-card wow fadeInUp">
+                <h2 className="counter card-title">
+                  <OdometerComponent max={15} /> +
+                </h2>
+                <p className="card-para">years of experience</p>
+              </div>
+              <div className="design-card wow fadeInUp">
+                <div className="design-card-img">
+                  <div className="icon">
+                    <i className="fa-sharp fa-thin fa-lock" />
+                  </div>
+                </div>
+                <div className="card-info">
+                  <h3 className="card-title">Compliance Standards</h3>
+                  <p className="card-para">21 Projects</p>
+                </div>
               </div>
             </div>
           </div>
