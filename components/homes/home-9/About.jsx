@@ -98,13 +98,13 @@ export default function About() {
               </div>
               <div className="design-card wow fadeInUp">
                 <div className="design-card-img">
-                  <div className="icon">
+                  <div className="icon icon-circle">
                     <i className="fa-sharp fa-thin fa-lock" />
                   </div>
                 </div>
                 <div className="card-info">
                   <h3 className="card-title">Compliance Standards</h3>
-                  <p className="card-para">21 Projects</p>
+                  <p className="card-para">Ensuring excellence through rigorous compliance standards</p>
                 </div>
               </div>
             </div>

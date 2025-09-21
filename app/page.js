@@ -25,9 +25,8 @@ export default function page() {
         <About />
         <WhatIDo />
         <Services3 />
-        <Education />
-        <Certifications />
-        <Contact parentClass="get-in-touch-area tmp-section-gapBottom" />
+        
+        <Contact parentClass="get-in-touch-area tmp-section-gapTop tmp-section-gapBottom" />
         <Footer1 />
         <CommonComponents />
       </div>
