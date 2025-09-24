@@ -77,20 +77,6 @@ export default function Footer3({
                       <a href="#">info@bystsecurity.com</a>
                     </li>
                   </ul>
-                  <div className="social-link footer">
-                    <a href="#">
-                      <i className="fa-brands fa-instagram" />
-                    </a>
-                    <a href="#">
-                      <i className="fa-brands fa-linkedin-in" />
-                    </a>
-                    <a href="#">
-                      <i className="fa-brands fa-twitter" />
-                    </a>
-                    <a href="#">
-                      <i className="fa-brands fa-facebook-f" />
-                    </a>
-                  </div>
                 </div>
               </div>
             </div>
