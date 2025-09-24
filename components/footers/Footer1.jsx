@@ -2,7 +2,13 @@
 import Image from "next/image";
 import Link from "next/link";
 import ScrollTop from "../common/ScrollTop";
-import { footerLinks, footerLinksWhite } from "@/data/footerLinks";
+
+const footerMenuItems = [
+  { href: "/", label: "Home" },
+  { href: "/about", label: "About" },
+  { href: "/what-i-do", label: "What I do" },
+  { href: "/contact", label: "Contact" },
+];
 
 export default function Footer1({
   darkLogo = "/assets/images/logo/white-logo-reeni.png",
@@ -13,66 +19,22 @@ export default function Footer1({
       <footer className="footer-area footer-style-one-wrapper bg-color-footer bg_images tmp-section-gap">
         <div className="container">
           <div className="footer-main footer-style-one">
-            <div className="row g-5">
-              <div className="col-lg-5 col-md-6">
-                <div className="single-footer-wrapper border-right mr--20">
-                  <div className="logo">
-                    <Link href={`/`}>
-                      <Image
-                        className="logo-dark"
-                        alt="Reeni - Personal Portfolio HTML Template for developers and freelancers"
-                        src={darkLogo}
-                        width={121}
-                        height={41}
-                      />
-                      <Image
-                        className="logo-white"
-                        alt="Reeni - Personal Portfolio HTML Template for developers and freelancers"
-                        src={lightLogo}
-                        width={121}
-                        height={40}
-                      />
-                    </Link>
-                  </div>
-                  
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6">
+            <div className="row g-5 justify-content-center">
+              <div className="col-lg-12 col-md-12 text-center">
                 <div className="single-footer-wrapper quick-link-wrap">
-                  <h5 className="ft-title">Quick Link</h5>
-                  <ul className="ft-link tmp-link-animation dark-content">
-                    {footerLinks.map((item, index) => (
+                  <ul className="ft-link tmp-link-animation d-flex justify-content-center flex-wrap gap-3">
+                    {footerMenuItems.map((item, index) => (
                       <li key={index}>
                         <Link href={item.href}>{item.label}</Link>
                       </li>
                     ))}
-                  </ul>
-                  <ul className="ft-link tmp-link-animation light-content2">
-                    {footerLinksWhite.map((item, index) => (
-                      <li key={index}>
-                        <Link href={item.href}>{item.label}</Link>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-6">
-                <div className="single-footer-wrapper contact-wrap">
-                  <h5 className="ft-title">Contact</h5>
-                  <ul className="ft-link tmp-link-animation">
-                    <li>
-                      <span className="ft-icon">
-                        <i className="fa-solid fa-envelope" />
-                      </span>
-                      <a href="#">info@bystsecurity.com</a>
-                    </li>
                   </ul>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </footer>{" "}
+      </footer>
     </>
   );
 }
