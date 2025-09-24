@@ -6,15 +6,15 @@
 .get-in-touch-wrapper {
   border-radius: 20px;
   background: var(--color-gray-2);
-  padding: 20px 30px;
+  padding: 10px 15px;
   @media (min-width: 576px) {
-    padding: 80px 60px;
+    padding: 40px 30px;
   }
   @media #{variables.$md-layout} {
-    padding: 40px 40px;
+    padding: 20px 20px;
   }
   @media #{variables.$sm-layout} {
-    padding: 30px 20px;
+    padding: 15px 10px;
   }
 }
 
@@ -221,43 +221,43 @@
 .contact-card {
   background: #ffffff;
   border-radius: 14px;
-  padding: 28px;
+  padding: 20px;
   box-shadow: 0 10px 30px rgba(16, 24, 40, 0.06);
   border: 1px solid rgba(16, 24, 40, 0.04);
   max-width: 100%;
 
   .contact-card-head {
-    margin-bottom: 18px;
+    margin-bottom: 15px;
     h3 {
-      margin: 0 0 6px 0;
-      font-size: 22px;
+      margin: 0 0 4px 0;
+      font-size: 20px;
       color: var(--color-heading);
       font-weight: 700;
     }
     .muted {
       margin: 0;
       color: var(--color-gray);
-      font-size: 14px;
+      font-size: 12px;
     }
   }
 
   .input-label {
     display: block;
-    font-size: 13px;
+    font-size: 12px;
     color: rgba(30, 41, 59, 0.6);
-    margin-bottom: 8px;
+    margin-bottom: 6px;
     font-weight: 500;
   }
 
   .input-field {
     display: block;
     width: 100%;
-    padding: 12px 14px;
-    font-size: 15px;
+    padding: 10px 12px;
+    font-size: 14px;
     color: var(--color-heading);
     background: #fafafa;
     border: 1px solid rgba(16, 24, 40, 0.06);
-    border-radius: 10px;
+    border-radius: 8px;
     transition: box-shadow 150ms ease, border-color 150ms ease,
       transform 150ms ease;
     font-weight: 500;
@@ -275,25 +275,25 @@
   }
 
   textarea.input-field {
-    min-height: 140px;
+    min-height: 120px;
     resize: vertical;
   }
 
   .tmp-button-here {
-    margin-top: 8px;
+    margin-top: 6px;
   }
 
   .contact-submit {
     background: linear-gradient(90deg, var(--color-primary), #2b8ef7);
     border: none;
     color: #fff;
-    padding: 12px 18px;
-    font-size: 15px;
+    padding: 10px 16px;
+    font-size: 14px;
     font-weight: 700;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
+    gap: 6px;
     transition: transform 140ms ease, box-shadow 140ms ease, opacity 120ms ease;
 
     &:disabled {
@@ -310,9 +310,9 @@
   }
 
   @media #{variables.$md-layout} {
-    padding: 20px;
+    padding: 15px;
     .input-field {
-      padding: 10px 12px;
+      padding: 8px 10px;
     }
   }
 }

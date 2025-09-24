@@ -40,7 +40,7 @@ export default function Contact({ parentClass = "get-in-touch-area tmp-section-g
     <section className={parentClass} id="contacts">
       <div className="container">
         <div className="get-in-touch-wrapper tmponhover">
-          <div className="row g-3 align-items-center">
+          <div className="row g-2 align-items-center">
             <div className="col-lg-5">
               <div className="contact-inner">
                 <ul className="ft-link v2">
@@ -144,8 +144,8 @@ export default function Contact({ parentClass = "get-in-touch-area tmp-section-g
                           <textarea className="input-field" name="message" id="contact-message" required rows={4} placeholder=""></textarea>
                         </div>
 
-                        <div className="col-lg-12">
-                          <ReCAPTCHAComponent onVerify={handleVerification} parentClass={"mb-4"} />
+                        <div className="col-lg-12 d-flex flex-column flex-lg-row align-items-lg-center justify-content-lg-between">
+                          <ReCAPTCHAComponent onVerify={handleVerification} parentClass={"mb-3 mb-lg-0"} />
                           <div className="tmp-button-here">
                             <button className="tmp-btn contact-submit radius-round w-100" name="submit" type="submit" id="submit" disabled={!isVerified}>
                               <span className="btn-text">Send Message</span>
