@@ -7,9 +7,6 @@ export default function Copyright() {
         <div className="row">
           <div className="col-lg-12">
             <div className="main-wrapper">
-              <p className="copy-right-para tmp-link-animation">
-                All Rights Reserved to <a href="https://bystsecurity.com/" target="_blank">bystsecurity</a>
-              </p>{" "}
               <ul className="tmp-link-animation dark-content">
                 <li>
                   <a href="#">Trams &amp; Condition</a>
@@ -32,6 +29,9 @@ export default function Copyright() {
                   <Link href={`/contact-white`}>Contact Us</Link>
                 </li>
               </ul>
+              <p className="copy-right-para tmp-link-animation">
+                All Rights Reserved to <a href="https://bystsecurity.com/" target="_blank">bystsecurity</a>
+              </p>{" "}
             </div>
           </div>
         </div>

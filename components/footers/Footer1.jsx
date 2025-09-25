@@ -22,7 +22,7 @@ export default function Footer1({
             <div className="row g-5 justify-content-center">
               <div className="col-lg-12 col-md-12 text-center">
                 <div className="single-footer-wrapper quick-link-wrap">
-                  <ul className="ft-link tmp-link-animation d-flex justify-content-center flex-wrap gap-3">
+                  <ul className="ft-link tmp-link-animation d-flex justify-content-center">
                     {footerMenuItems.map((item, index) => (
                       <li key={index}>
                         <Link href={item.href}>{item.label}</Link>
