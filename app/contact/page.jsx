@@ -49,7 +49,7 @@ export default function page() {
             </div>
           </div>
         </div>
-        <Contact parentClass="get-in-touch-area tmp-section-gapTop tmp-section-gapBottom" />
+        <Contact parentClass="get-in-touch-area tmp-section-gapTop tmp-section-gapBottom contact-overlap" />
         <Footer1 />
         <CommonComponents />
       </div>

@@ -16,7 +16,7 @@ export default function Footer1({
 }) {
   return (
     <>
-      <footer className="footer-area footer-style-one-wrapper bg-color-footer bg_images tmp-section-gap">
+      <footer className="footer-area footer-style-one-wrapper bg-color-footer bg_images tmp-section-gap footer-area--staggered-top">
         <div className="container">
           <div className="footer-wrapper d-flex justify-content-between align-items-center">
             <div className="footer-main footer-style-one">
@@ -37,7 +37,10 @@ export default function Footer1({
             <div className="copyright-area-one">
               <div className="main-wrapper">
                 <p className="copy-right-para tmp-link-animation">
-                  All Rights Reserved to <a href="https://bystsecurity.com/" target="_blank">bystsecurity</a>
+                  All Rights Reserved to{" "}
+                  <a href="https://bystsecurity.com/" target="_blank">
+                    bystsecurity
+                  </a>
                 </p>{" "}
               </div>
             </div>

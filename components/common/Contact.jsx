@@ -39,7 +39,10 @@ export default function Contact({
   };
 
   return (
-    <section className={parentClass} id="contacts">
+    <section
+      className={`${parentClass} contact-intersect-footer`}
+      id="contacts"
+    >
       <div className="container">
         <div className="get-in-touch-wrapper tmponhover">
           <div className="row g-2">

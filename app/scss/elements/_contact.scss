@@ -331,3 +331,44 @@
     }
   }
 }
+
+/* ===============================
+   Intersect Footer Helper
+   Make the contact section overlap the footer by ~25% of footer height
+   =============================== */
+.contact-intersect-footer {
+  /* smaller negative margin for lighter overlap */
+  margin-bottom: -25px; /* fallback for small viewports */
+
+  .get-in-touch-wrapper {
+    transform: translateY(18px);
+  }
+
+  /* medium screens: modest overlap */
+  @media (min-width: 768px) {
+    margin-bottom: -40px;
+    .get-in-touch-wrapper {
+      transform: translateY(30px);
+    }
+  }
+
+  /* large screens: roughly 1/4 of a typical footer */
+  @media (min-width: 1200px) {
+    margin-bottom: -60px;
+    .get-in-touch-wrapper {
+      transform: translateY(40px);
+    }
+  }
+
+  /* ensure the contact card is above footer background */
+  .contact-card {
+    position: relative;
+    z-index: 9999; /* bring to front */
+  }
+
+  /* ensure the wrapper creates its own stacking context so z-index takes effect */
+  .get-in-touch-wrapper {
+    position: relative;
+    z-index: 9998;
+  }
+}

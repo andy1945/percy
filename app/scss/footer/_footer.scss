@@ -2,7 +2,7 @@
 
 .footer-area {
   position: relative;
-  z-index: 1;
+  z-index: 5; /* keep low so contact can sit above */
   overflow: hidden;
   .footer-bg-img {
     position: absolute;
@@ -13,6 +13,25 @@
     img {
       animation: sppeen-box 70s linear infinite;
     }
+  }
+}
+
+/* When the contact section overlaps the footer we need extra top padding so
+   footer content doesn't get cut off. These values roughly match the overlap
+   distances in the contact styles above. */
+
+.footer-area--staggered-top {
+  /* smaller top padding to match ~25% overlap */
+  padding-top: 80px;
+
+  @media (min-width: 1200px) {
+    padding-top: 110px;
+  }
+
+  /* ensure footer content is behind the contact card */
+  .container {
+    position: relative;
+    z-index: 10;
   }
 }
 
