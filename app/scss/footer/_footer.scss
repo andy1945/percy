@@ -500,3 +500,13 @@
     color: #fff;
   }
 }
+
+.footer-wrapper {
+  @media (max-width: 767px) {
+    flex-direction: column;
+    gap: 20px;
+    .ft-link {
+      flex-wrap: wrap;
+    }
+  }
+}
