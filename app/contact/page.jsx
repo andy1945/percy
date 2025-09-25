@@ -1,4 +1,3 @@
-import Copyright from "@/components/footers/Copyright";
 import Footer1 from "@/components/footers/Footer1";
 import Header2 from "@/components/headers/Header2";
 import Contact from "@/components/common/Contact";
@@ -52,7 +51,7 @@ export default function page() {
         </div>
         <Contact parentClass="get-in-touch-area tmp-section-gapTop tmp-section-gapBottom" />
         <Footer1 />
-        <Copyright /> <CommonComponents />
+        <CommonComponents />
       </div>
     </>
   );

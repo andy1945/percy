@@ -250,13 +250,11 @@
    Copyright Area One
   ================================*/
 .copyright-area-one {
-  background: #040a75;
   .main-wrapper {
-    border-top: 1px solid var(--color-border);
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 28px 0;
+    padding: 0;
     flex-wrap: wrap;
 
     @media (min-width: 576px) {
@@ -268,12 +266,18 @@
     }
 
     .copy-right-para {
-      color: var(--color-gray);
+      color: #fff;
       font-family: var(--font-secondary);
       font-size: 14px;
       font-weight: 400;
       line-height: 30px;
       margin-bottom: 0;
+      a {
+        color: #fff;
+        &:hover {
+          color: var(--color-primary);
+        }
+      }
     }
 
     ul {
