@@ -4,7 +4,9 @@ import React, { useRef, useState } from "react";
 import { toast } from "react-toastify";
 import ReCAPTCHAComponent from "./ReCAPTCHA";
 
-export default function Contact({ parentClass = "get-in-touch-area tmp-section-gapTop" }) {
+export default function Contact({
+  parentClass = "get-in-touch-area tmp-section-gapTop",
+}) {
   const form = useRef(null);
   const [isVerified, setIsVerified] = useState(false);
 
@@ -40,11 +42,28 @@ export default function Contact({ parentClass = "get-in-touch-area tmp-section-g
     <section className={parentClass} id="contacts">
       <div className="container">
         <div className="get-in-touch-wrapper tmponhover">
-          <div className="row g-2 align-items-center">
+          <div className="row g-2">
             <div className="col-lg-5">
               <div className="contact-inner">
-                <ul className="ft-link v2">
-                  <li className="tmp-scroll-trigger tmp-fade-in animation-order-1 tmp-link-animation">
+                <ul
+                  className="ft-link v2"
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    gap: "20px",
+                    width: "100%",
+                    padding: "0",
+                    listStyle: "none",
+                  }}
+                >
+                  <li
+                    className="tmp-scroll-trigger tmp-fade-in animation-order-1 tmp-link-animation"
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      gap: "15px",
+                    }}
+                  >
                     <span className="ft-icon">
                       <i className="fa-solid fa-envelope" />
                     </span>
@@ -53,7 +72,15 @@ export default function Contact({ parentClass = "get-in-touch-area tmp-section-g
                       <a href="#">info@bystsecurity.com</a>
                     </div>
                   </li>
-                  <li className="tmp-scroll-trigger tmp-fade-in animation-order-2">
+
+                  <li
+                    className="tmp-scroll-trigger tmp-fade-in animation-order-2"
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      gap: "15px",
+                    }}
+                  >
                     <span className="ft-icon">
                       <i className="fa-solid fa-phone" />
                     </span>
@@ -62,7 +89,14 @@ export default function Contact({ parentClass = "get-in-touch-area tmp-section-g
                       <a href="tel:+1267688812">+1 267 688812</a>
                     </div>
                   </li>
-                  <li className="tmp-scroll-trigger tmp-fade-in animation-order-3">
+                  <li
+                    className="tmp-scroll-trigger tmp-fade-in animation-order-3"
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      gap: "15px",
+                    }}
+                  >
                     <span className="ft-icon">
                       <i className="fa-solid fa-location-dot" />
                     </span>
@@ -77,27 +111,34 @@ export default function Contact({ parentClass = "get-in-touch-area tmp-section-g
                       </a>
                     </div>
                   </li>
-                  <li className="tmp-scroll-trigger tmp-fade-in animation-order-2">
+                  <li
+                    className="tmp-scroll-trigger tmp-fade-in animation-order-2"
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      gap: "15px",
+                    }}
+                  >
                     <span className="ft-icon">
                       <i className="fa-solid fa-globe" />
                     </span>
                     <div className="ft-link-wrap">
                       <h4 className="link-title">Website:</h4>
-                      <a href="https://bystsecurity.com/">https://bystsecurity.com/</a>
+                      <a href="https://bystsecurity.com/">
+                        https://bystsecurity.com/
+                      </a>
                     </div>
                   </li>
                 </ul>
-
+                <br />
                 <div className="social-link footer">
-                  <a href="#">
-                    <i className="fa-brands fa-instagram" />
-                  </a>
-                  <a href="https://www.linkedin.com/in/percy-r-a7b7b3192/">
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/in/percy-r-a7b7b3192/"
+                  >
                     <i className="fa-brands fa-linkedin-in" />
                   </a>
-                  <a href="https://x.com/Percyrwandarugali">
-                    <i className="fa-brands fa-twitter" />
-                  </a>
+
                   <a href="#">
                     <i className="fa-brands fa-facebook-f" />
                   </a>
@@ -113,41 +154,105 @@ export default function Contact({ parentClass = "get-in-touch-area tmp-section-g
 
                 <div className="contact-form">
                   <div className="contact-card">
-                    
-
                     <div id="form-messages" className="error" />
 
-                    <form className="tmp-dynamic-form" id="contact-form" ref={form} onSubmit={sandMail}>
+                    <form
+                      className="tmp-dynamic-form"
+                      id="contact-form"
+                      ref={form}
+                      onSubmit={sandMail}
+                    >
                       <div className="contact-form-wrapper row">
                         <div className="col-lg-6">
-                          <label htmlFor="contact-name" className="input-label">Your Name</label>
-                          <input className="input-field" name="name" id="contact-name" type="text" required placeholder="" />
+                          <label htmlFor="contact-name" className="input-label">
+                            Your Name
+                          </label>
+                          <input
+                            className="input-field"
+                            name="name"
+                            id="contact-name"
+                            type="text"
+                            required
+                            placeholder=""
+                          />
                         </div>
 
                         <div className="col-lg-6">
-                          <label htmlFor="contact-phone" className="input-label">Phone Number</label>
-                          <input className="input-field" name="phone" id="contact-phone" type="tel" placeholder="" />
+                          <label
+                            htmlFor="contact-phone"
+                            className="input-label"
+                          >
+                            Phone Number
+                          </label>
+                          <input
+                            className="input-field"
+                            name="phone"
+                            id="contact-phone"
+                            type="tel"
+                            placeholder=""
+                          />
                         </div>
 
                         <div className="col-lg-6">
-                          <label htmlFor="contact-email" className="input-label">Your Email</label>
-                          <input className="input-field" id="contact-email" name="email" type="email" required placeholder="" />
+                          <label
+                            htmlFor="contact-email"
+                            className="input-label"
+                          >
+                            Your Email
+                          </label>
+                          <input
+                            className="input-field"
+                            id="contact-email"
+                            name="email"
+                            type="email"
+                            required
+                            placeholder=""
+                          />
                         </div>
 
                         <div className="col-lg-6">
-                          <label htmlFor="subject" className="input-label">Subject</label>
-                          <input className="input-field" type="text" id="subject" name="subject" placeholder="" />
+                          <label htmlFor="subject" className="input-label">
+                            Subject
+                          </label>
+                          <input
+                            className="input-field"
+                            type="text"
+                            id="subject"
+                            name="subject"
+                            placeholder=""
+                          />
                         </div>
 
                         <div className="col-lg-12">
-                          <label htmlFor="contact-message" className="input-label">Your Message</label>
-                          <textarea className="input-field" name="message" id="contact-message" required rows={4} placeholder=""></textarea>
+                          <label
+                            htmlFor="contact-message"
+                            className="input-label"
+                          >
+                            Your Message
+                          </label>
+                          <textarea
+                            className="input-field"
+                            name="message"
+                            id="contact-message"
+                            required
+                            rows={4}
+                            placeholder=""
+                          ></textarea>
                         </div>
 
                         <div className="col-lg-12 d-flex flex-column flex-lg-row align-items-lg-center justify-content-lg-between">
-                          <ReCAPTCHAComponent onVerify={handleVerification} parentClass={"mb-3 mb-lg-0"} />
+                          <ReCAPTCHAComponent
+                            onVerify={handleVerification}
+                            parentClass={"mb-3 mb-lg-0"}
+                          />
                           <div className="tmp-button-here">
-                            <button className="tmp-btn contact-submit radius-round w-100" name="submit" type="submit" id="submit" disabled={!isVerified}>
+                            <button
+                              className="tmp-btn contact-submit radius-round w-100"
+                              name="submit"
+                              type="submit"
+                              id="submit"
+                              disabled={!isVerified}
+                            >
                               <span className="btn-text">Send Message</span>
                               <span className="btn-icon">
                                 <i className="fa-sharp fa-regular fa-arrow-right" />
@@ -161,7 +266,6 @@ export default function Contact({ parentClass = "get-in-touch-area tmp-section-g
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </div>
