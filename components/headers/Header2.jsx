@@ -41,17 +41,14 @@ export default function Header2({
               <div className="tmp-header-right">
                 <div className="social-share-wrapper d-none d-md-block">
                   <div className="social-link">
-                    <a href="#">
-                      <i className="fa-brands fa-instagram" />
-                    </a>
-                    <a href="https://www.linkedin.com/in/percy-r-a7b7b3192/">
+                    <a
+                      target="_blank"
+                      href="https://www.linkedin.com/in/percy-r-a7b7b3192/"
+                    >
                       <i className="fa-brands fa-linkedin-in" />
                     </a>
-                    <a href="https://x.com/Percyrwandarugali">
+                    <a target="_blank" href="https://x.com/Percyrwandarugali">
                       <i className="fa-brands fa-twitter" />
-                    </a>
-                    <a href="#">
-                      <i className="fa-brands fa-facebook-f" />
                     </a>
                   </div>
                 </div>

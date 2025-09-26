@@ -24,8 +24,7 @@ export default function page() {
         <Hero />
         <About />
         <WhatIDo />
-
-        <Contact parentClass="get-in-touch-area tmp-section-gapTop tmp-section-gapBottom" />
+        <Contact parentClass="get-in-touch-area pt--1 tmp-section-gapBottom" />
         <Footer1 />
         <CommonComponents />
       </div>

@@ -1,8 +1,9 @@
 export const counters = [
-  { text: "SOC 2, HIPAA", order: 1 },
-  { text: "ISO 27001/2", order: 2 },
-  { text: "NIST 800-53", order: 3 },
-  { text: "PCI DSS", order: 4 },
+  { text: "SOC 2", order: 1 },
+  { text: "HIPAA", order: 2 },
+  { text: "ISO 27001/2", order: 3 },
+  { text: "NIST 800-53", order: 4 },
+  { text: "PCI DSS", order: 5 },
 ];
 
 export const countData = [

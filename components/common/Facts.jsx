@@ -5,7 +5,6 @@ import { counters } from "@/data/facts";
 export default function Facts({ parentClass }) {
   return (
     <section className={`counter-area ${parentClass || ""}`}>
-
       <div className="container">
         <div className="row g-5">
           <div className="col-12 col-lg-6 col-xl-6 col-xxl-6">
@@ -21,7 +20,9 @@ export default function Facts({ parentClass }) {
                 </h3>
               </div>
               <p className="year-para">
-                I’ve delivered proven strategies in risk management, cloud security, and compliance that empower businesses to grow securely.
+                I've delivered proven strategies in risk management, cloud
+                security, and compliance that empower businesses to grow
+                securely.
               </p>
             </div>
           </div>

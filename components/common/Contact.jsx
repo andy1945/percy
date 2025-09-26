@@ -53,7 +53,7 @@ export default function Contact({
                   style={{
                     display: "flex",
                     flexDirection: "column",
-                    gap: "20px",
+                    gap: "15px",
                     width: "100%",
                     padding: "0",
                     listStyle: "none",
@@ -141,9 +141,8 @@ export default function Contact({
                   >
                     <i className="fa-brands fa-linkedin-in" />
                   </a>
-
-                  <a href="#">
-                    <i className="fa-brands fa-facebook-f" />
+                  <a target="_blank" href="https://x.com/Percyrwandarugali">
+                    <i className="fa-brands fa-twitter" />
                   </a>
                 </div>
               </div>

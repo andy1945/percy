@@ -175,6 +175,159 @@
   }
 }
 
+/* Specific override when Contact is used with contact-overlap to reduce top spacing */
+.contact-overlap {
+  padding-top: 20px; /* significantly reduced compared to tmp-section-gapTop */
+  @media #{variables.$md-layout} {
+    padding-top: 16px;
+  }
+  @media #{variables.$sm-layout} {
+    padding-top: 12px;
+  }
+}
+
+/* Explicit small utility to force 30px top padding for get-in-touch when used on the home page */
+.get-in-touch-area.pt--30 {
+  padding-top: 30px !important;
+}
+
+/* ===============================
+   Why Choose Us - feature grid
+   =============================== */
+.why-choose-us {
+  text-align: center;
+
+  .section-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--color-heading);
+    margin-bottom: 6px;
+    font-family: var(--font-primary);
+  }
+
+  .section-sub {
+    color: var(--color-gray);
+    max-width: 720px;
+    margin: 0 auto 18px auto;
+    font-size: 15px;
+    font-family: var(--font-secondary);
+  }
+
+  .why-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 22px;
+    box-shadow: 0 10px 30px rgba(16, 24, 40, 0.06);
+    border: 1px solid rgba(16, 24, 40, 0.04);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 160ms ease, box-shadow 160ms ease;
+
+    &:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 18px 40px rgba(16, 24, 40, 0.08);
+    }
+
+    .why-icon {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 14px;
+      font-size: 26px;
+      color: var(--color-primary);
+      background: rgba(43, 142, 247, 0.08);
+      border: 1px solid rgba(43, 142, 247, 0.06);
+    }
+
+    .why-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--color-heading);
+      margin-bottom: 8px;
+      font-family: var(--font-primary);
+    }
+
+    .why-desc {
+      color: var(--color-gray);
+      font-size: 14px;
+      line-height: 1.5;
+      font-family: var(--font-secondary);
+    }
+  }
+
+  /* color modifiers */
+  .bg-soft-primary {
+    background: linear-gradient(
+      180deg,
+      rgba(43, 142, 247, 0.12),
+      rgba(43, 142, 247, 0.06)
+    );
+    color: var(--color-primary);
+    border: none;
+  }
+
+  .bg-soft-accent {
+    background: linear-gradient(
+      180deg,
+      rgba(99, 102, 241, 0.12),
+      rgba(99, 102, 241, 0.06)
+    );
+    color: #6366f1;
+    border: none;
+  }
+
+  .bg-soft-dark {
+    background: linear-gradient(
+      180deg,
+      rgba(15, 15, 15, 0.06),
+      rgba(15, 15, 15, 0.03)
+    );
+    color: #0f172a;
+    border: none;
+  }
+
+  @media #{variables.$md-layout} {
+    .why-card {
+      padding: 18px;
+    }
+    .why-icon {
+      width: 64px;
+      height: 64px;
+      font-size: 24px;
+    }
+  }
+
+  @media #{variables.$sm-layout} {
+    .why-card {
+      padding: 14px;
+    }
+    .why-icon {
+      width: 56px;
+      height: 56px;
+      font-size: 20px;
+    }
+  }
+}
+
+/* If contact follows a large intro section, reduce that gap specifically */
+.about-me-intro-area + .get-in-touch-area,
+.breadcrumb-area + .get-in-touch-area,
+.about-me-intro-area + .get-in-touch-area.contact-overlap {
+  margin-top: -10px; /* pull contact up */
+  padding-top: 6px; /* reduce padding to tighten space */
+}
+
+/* fallback: target contact when used with the helper class */
+.contact-overlap {
+  margin-top: -6px;
+}
+
 #form-messages {
   &.error {
     color: var(--color-danger);
